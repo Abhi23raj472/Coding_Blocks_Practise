@@ -19,6 +19,7 @@ N=6
 #include<iostream>
 using namespace std;
 int main(){
+	//taking input
 	int n;
 	cin>>n;
 	for(int i=1;i<=n;i++){
@@ -26,18 +27,11 @@ int main(){
 		
 		//print i value in ith line
 		
-		for(int cnt=1;cnt<=i;cnt++){
+		for(int count=1;count<=i;count++){
 			cout<<val;
 			val=1-val;
 		}
 		cout<<endl;
 	}
 	return 0;
-	
-	
-	
-	
-	
-	
-	
 }
